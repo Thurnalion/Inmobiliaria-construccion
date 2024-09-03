@@ -1,0 +1,49 @@
+
+.h1proceso{
+    margin: 30px;
+    text-align: center;
+    color: var(--colordos);
+    font-size: 18px;
+}
+
+.mainproceso{
+    margin: 4vh 2vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--coloruno);
+    font-family: sans-serif;
+    align-items: center;
+
+
+    &__textoproceso{
+        width: 65%;
+        text-align: center;
+        justify-content: space-between;
+        margin: 5vh;
+        margin-left: 10vh;
+        font-size: 21px;
+    }
+
+    &__fotoproceso{
+        width: 60%;
+        height: 60%;
+        position: relative;
+        justify-content: space-between;
+        
+        
+    }
+}
+
+@media (max-width: 667px){
+    .mainproceso{
+        &__textoproceso{
+            font-size: 15px;
+
+        }
+    }
+    
+
+}  
+
+
